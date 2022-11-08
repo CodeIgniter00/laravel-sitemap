@@ -2,7 +2,7 @@
 
 [![License](https://poser.pugx.org/laravelium/sitemap/license)](https://packagist.org/packages/laravelium/sitemap)
 
-*Laravel Sitemap generator for Laravel.*
+*Sitemap generator for Laravel.*
 
 ## Notes
 
