@@ -1,12 +1,13 @@
-# **[Laravelium Sitemap](https://laravelium.com) package**
+# **Laravel sitemap package**
 
-[![License](https://poser.pugx.org/laravelium/sitemap/license)](https://packagist.org/packages/laravelium/sitemap) [![PHP tests](https://github.com/Laravelium/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master)](https://github.com//Laravelium/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability)](https://codeclimate.com/github/Laravelium/laravel-sitemap/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage)](https://codeclimate.com/github/Laravelium/laravel-sitemap/test_coverage) [![Style Status](https://github.styleci.io/repos/10392044/shield?style=normal&branch=master)](https://github.styleci.io/repos/10392044) [![Latest Stable Version](https://poser.pugx.org/laravelium/sitemap/v/stable)](https://packagist.org/packages/laravelium/sitemap) [![Total Downloads](https://poser.pugx.org/laravelium/sitemap/downloads)](https://packagist.org/packages/laravelium/sitemap)
+[![License](https://poser.pugx.org/laravelium/sitemap/license)](https://packagist.org/packages/laravelium/sitemap)
 
-*Laravelium Sitemap generator for Laravel.*
+*Laravel Sitemap generator for Laravel.*
 
 ## Notes
 
 - Dev Branches are for development and are **UNSTABLE** (*use on your own risk*)!
+- This is a fork of a repository that was deprecated, but I liked it so much that I will continue to maintain it. [Old Repository](https://github.com/Laravelium/laravel-sitemap)
 
 ## Installation
 
@@ -18,6 +19,22 @@ composer require laravelium/sitemap
 
 *or add the following to your `composer.json` file :*
 
+
+#### For Laravel 9
+```json
+"repositories": [
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/codeigniter00/laravel-sitemap"
+        }
+    ],
+```
+and
+```json
+"require" : {
+    "codeigniter00/sitemap" : "dev-master"
+}
+```
 #### For Laravel 8
 ```json
 "laravelium/sitemap": "8.*"
@@ -87,22 +104,6 @@ composer require laravelium/sitemap
 php artisan vendor:publish --provider="Laravelium\Sitemap\SitemapServiceProvider"
 ```
 **Note:** *Composer won't update them after `composer update`, you'll need to do it manually!*
-
-## Examples
-
-- [How to generate dynamic sitemap (with optional caching)](https://github.com/Laravelium/laravel-sitemap/wiki/Dynamic-sitemap)
-
-- [How to generate BIG sitemaps (with more than 1M items)](https://github.com/Laravelium/laravel-sitemap/wiki/Sitemap-index)
-
-- [How to generate sitemap to a file](https://github.com/Laravelium/laravel-sitemap/wiki/Generate-sitemap)
-
-- [How to use multiple sitemaps with sitemap index](https://github.com/Laravelium/laravel-sitemap/wiki/Generate-BIG-sitemaps)
-
-and more in the [Wiki](https://github.com/Laravelium/laravel-sitemap/wiki).
-
-## Contribution guidelines
-
-Before submiting new merge request or creating new issue, please read [contribution guidelines](https://gitlab.com/Laravelium/Sitemap/blob/master/CONTRIBUTING.md).
 
 ## License
 
