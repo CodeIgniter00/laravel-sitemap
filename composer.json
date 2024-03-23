@@ -1,5 +1,5 @@
 {
-    "name": "codeigniter00/sitemap",
+    "name": "Palyanitsaaa/sitemap",
     "description": "Laravelium Sitemap package for Laravel.",
     "homepage": "https://laravelium.com",
     "keywords": ["laravelium", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
@@ -10,12 +10,18 @@
             "email": "r@alfamatter.com",
             "role": "Developer",
             "homepage": "https://darumen.com"
+        },
+        {
+            "name": "Lev Bazdyriev",
+            "email": "c.coder07@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/Palyanitsaaa"
         }
     ],
     "support": {
-        "issues": "https://github.com/Laravelium/laravel-sitemap/issues",
-        "source": "https://github.com/Laravelium/laravel-sitemap",
-        "wiki": "https://github.com/Laravelium/laravel-sitemap/wiki"
+        "issues": "https://github.com/Palyanitsaaa/laravel-sitemap/issues",
+        "source": "https://github.com/Palyanitsaaa/laravel-sitemap",
+        "wiki": "https://github.com/Palyanitsaaa/laravel-sitemap/wiki"
     },
     "require": {
         "php": ">=8.0",
